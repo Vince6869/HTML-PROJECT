@@ -1,20 +1,21 @@
 body {
-    background-color: lightblue;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
 }
-
 h1 {
-    color: blue;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #0056b3;
 }
-
 p {
-    color: green;
+    font-size: 18px;
+    font-weight: 300;
+    color: #444;
 }
-
-a {
-    color: red;
-}
-
-img {
-    border: 5px solid black;
-    border-radius: 10px; 
+label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
 }
