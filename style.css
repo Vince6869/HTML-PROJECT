@@ -19,6 +19,22 @@ label {
     font-size: 14px;
     color: #000;
 }
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: green;
+}
+
+a {
+    color: red;
+}
+
 img {
     border: 5px solid black;
     border-radius: 10px; 
