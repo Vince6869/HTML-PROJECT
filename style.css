@@ -19,3 +19,7 @@ label {
     font-size: 14px;
     color: #000;
 }
+img {
+    border: 5px solid black;
+    border-radius: 10px; 
+}
