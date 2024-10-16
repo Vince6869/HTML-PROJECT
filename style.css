@@ -1,41 +1,132 @@
+
 body {
-    background-color: lightblue;
+    background-color: #e0f7fa; 
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
+/* Header (h1) styling */
 h1 {
-    color: blue;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #0073e6; 
+    text-align: center;
+    margin: 20px 0;
 }
 
+/* Paragraph styling */
 p {
-    color: green;
+    font-size: 18px;
+    font-weight: 300;
+    color: #444;
+    margin: 10px 20px;
 }
 
+/* Links */
 a {
-    color: red;
+    color: #e60000; /* Slightly darker red for better contrast */
+    text-decoration: none;
 }
 
-img {
-    border: 5px solid black;
-    border-radius: 10px; 
+a:hover {
+    color: #ff6666; /* Lighter red on hover */
+    text-decoration: underline;
 }
-body {
-        font-family: 'Arial', sans-serif;
-        font-size: 16px;
-        color: #333;
- }
-h1 {
-        font-family: 'Georgia', serif;
-        font-weight: bold;
-        font-size: 32px;
-        color: #0056b3;
- }
-    p {
-        font-size: 18px;
-        font-weight: 300;
-        color: #444;
-    }
-    label {
-        font-weight: 600;
+
+/* Image styling */
+img {
+    border: 3px solid #333; /* Softer, thinner border */
+    border-radius: 10px;
+    max-width: 100%; /* Ensures images scale on mobile */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Adding padding and margins for better layout */
+main, section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Navigation links styling */
+ul {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+li a {
+    color: #0073e6;
+    padding: 10px 15px;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #f0f8ff;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+
+@media (max-width: 768px) {
+    body {
         font-size: 14px;
-        color: #000;
- }
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    ul {
+        padding: 10px 0;
+    }
+
+    li {
+        display: block;
+        margin: 5px 0;
+    }
+}
