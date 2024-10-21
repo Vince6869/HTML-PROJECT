@@ -19,7 +19,7 @@ h1 {
     margin: 20px 0;
 }
 
-/* Paragraph styling */
+
 p {
     font-size: 18px;
     font-weight: 300;
@@ -29,20 +29,20 @@ p {
 
 /* Links */
 a {
-    color: #e60000; /* Slightly darker red for better contrast */
+    color: #e60000; 
     text-decoration: none;
 }
 
 a:hover {
-    color: #ff6666; /* Lighter red on hover */
+    color: #ff6666; 
     text-decoration: underline;
 }
 
 /* Image styling */
 img {
-    border: 3px solid #333; /* Softer, thinner border */
+    border: 3px solid #333; 
     border-radius: 10px;
-    max-width: 100%; /* Ensures images scale on mobile */
+    max-width: 100%; 
     height: auto;
     display: block;
     margin: 20px auto;
@@ -56,14 +56,14 @@ label {
     display: block;
 }
 
-/* Adding padding and margins for better layout */
+
 main, section {
     padding: 20px;
     margin: 0 auto;
     max-width: 1200px;
 }
 
-/* Navigation links styling */
+
 ul {
     list-style-type: none; 
     padding: 0;
@@ -87,7 +87,6 @@ li a:hover {
     color: white;
 }
 
-/* Footer styling */
 footer {
     background-color: #333;
     color: white;
