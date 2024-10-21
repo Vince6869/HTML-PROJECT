@@ -87,45 +87,4 @@ li a:hover {
     color: white;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
 
-footer a {
-    color: #f0f8ff;
-}
-
-footer a:hover {
-    color: #ffcc00;
-}
-
-
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    img {
-        width: 100%;
-    }
-
-    ul {
-        padding: 10px 0;
-    }
-
-    li {
-        display: block;
-        margin: 5px 0;
-    }
-}
