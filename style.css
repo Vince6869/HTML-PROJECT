@@ -1,24 +1,32 @@
-
+/* Body background with a soft sandy gradient */
 body {
-    background-color: #e0f7fa; 
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    color: #333;
+    background: linear-gradient(to bottom, #FFD9B3, #FFF5E1); /* Sandy beige to a light beige */
+    font-family: Arial, sans-serif;
+    color: #333333; /* Charcoal gray for readability */
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
-/* Header (h1) styling */
-h1 {
-    font-family: 'Georgia', serif;
-    font-weight: bold;
-    font-size: 36px;
-    color: #0073e6; 
+/* Header styling */
+header {
     text-align: center;
-    margin: 20px 0;
+    padding: 20px;
+    background-color: #0077B6; /* Ocean Blue */
+    color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 p {
     font-size: 18px;
@@ -26,65 +34,44 @@ p {
     color: #444;
     margin: 10px 20px;
 }
+/* Section headings */
+h2 {
+    color: #00A676; /* Tropical Green */
+}
 
-/* Links */
+/* Text links */
 a {
-    color: #e60000; 
+    color: #FF6F61; /* Sunset Coral */
     text-decoration: none;
 }
 
 a:hover {
-    color: #ff6666; 
     text-decoration: underline;
 }
 
 /* Image styling */
-img {
-    border: 3px solid #333; 
-    border-radius: 10px;
-    max-width: 100%; 
+.clickable-image {
+    width: 300px;
     height: auto;
-    display: block;
-    margin: 20px auto;
+    border-radius: 8px;
+    margin: 20px 0;
+
 }
 
-label {
-    font-weight: 600;
-    font-size: 14px;
-    color: #000;
-    margin-bottom: 5px;
-    display: block;
+.clickable-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
-
-main, section {
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-
-ul {
-    list-style-type: none; 
-    padding: 0;
+/* Footer styling */
+footer {
     text-align: center;
+    padding: 20px;
+    background-color: #0077B6; /* Ocean Blue for consistency */
+    color: #FFFFFF;
+    border-top: 1px solid #CCCCCC;
 }
 
-li {
-    display: inline-block;
-    margin: 0 10px;
+footer a {
+    color: #FFD9B3; /* Sandy Beach Beige for contrast */
+    padding: 0 10px;
 }
-
-li a {
-    color: #0073e6;
-    padding: 10px 15px;
-    background-color: #f0f8ff;
-    border-radius: 5px;
-}
-
-li a:hover {
-    background-color: #0073e6;
-    color: white;
-}
-
-
