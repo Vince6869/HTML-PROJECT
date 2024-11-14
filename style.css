@@ -1,77 +1,319 @@
-/* Body background with a soft sandy gradient */
-body {
-    background: linear-gradient(to bottom, #FFD9B3, #FFF5E1); /* Sandy beige to a light beige */
-    font-family: Arial, sans-serif;
-    color: #333333; /* Charcoal gray for readability */
-    margin: 0;
-    padding: 0;
-}
+    /* Body background color */
+    body {
+        background: linear-gradient(to bottom, #FFD9B3, #FFF5E1); /* Sandy beige to a light beige */
+        font-family: Arial, sans-serif;
+        color: #333333; 
+        margin: 0;
+        padding: 0;
+    }
 
-/* Header styling */
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #0077B6; /* Ocean Blue */
-    color: #FFFFFF;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-}
+    /* Header styling */
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #0077B6; /* Ocean Blue */
+        color: #FFFFFF;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+    }
 
-/* Main content styling */
-main {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    /* Main content */
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-p {
-    font-size: 18px;
-    font-weight: 300;
-    color: #444;
-    margin: 10px 20px;
-}
-/* Section headings */
-h2 {
-    color: #00A676; /* Tropical Green */
-}
+    li a {
+        color: #0073e6;
+        padding: 10px 15px;
+        background-color: #f0f8ff;
+        border-radius: 5px;
+        text-decoration: none; /* Remove underline */
+    }
 
-/* Text links */
-a {
-    color: #FF6F61; /* Sunset Coral */
-    text-decoration: none;
-}
+    li a:hover {
+        background-color: #0073e6;
+        color: white;
+    }
 
-a:hover {
-    text-decoration: underline;
-}
+    img {
+        width: 80%; /* Adjust width as needed */
+        height: auto;
+        display: block;
+        margin: 20px auto; /* This will center the image horizontally */
+    }
 
-/* Image styling */
-.clickable-image {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-    margin: 20px 0;
+    /* Section headings */
+    h2 {
+        color: #00A676;
+    }
 
-}
+    /* Paragraph styling */
+    p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #444;
+        margin: 10px 20px;
+    }
 
-.clickable-image:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-}
+    a {
+        color: #FF6F61; 
+        text-decoration: none;
+    }
 
-/* Footer styling */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #0077B6; /* Ocean Blue for consistency */
-    color: #FFFFFF;
-    border-top: 1px solid #CCCCCC;
-}
+    a:hover {
+        text-decoration: underline;
+    }
 
-footer a {
-    color: #FFD9B3; /* Sandy Beach Beige for contrast */
-    padding: 0 10px;
-}
+    /* Image styling */
+    .clickable-image {
+        width: 300px;
+        height: auto;
+        border-radius: 8px;
+        margin: 20px 0;
+    }
+
+    .clickable-image:hover {
+        transform: scale(1.05); /* Will slight zoom on hover */
+    }
+
+    /* Footer styling */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #0077B6; 
+        color: #FFFFFF;
+        border-top: 1px solid #CCCCCC;
+    }
+
+    footer a {
+        color: #FFD9B3; /* Sandy Beach Beige */
+        padding: 0 10px;
+    }
+
+    /* Hero Section Styling */
+    .index-section {
+        background-image: url('https://i.pinimg.com/736x/ea/55/68/ea556882a12746b82a3111a1e9b22dc1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* Full viewport height */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* Header styling inside index section */
+    .index-section h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    /* Paragraph styling inside index section */
+    .index-section p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 10px 0 0;
+    }
+
+    /* Custom class for Palawan page */
+    .palawan-page {
+        background-image: url('palawanfampic.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* Full viewport height */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* Header styling inside index section */
+    .palawan-page h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    /* Paragraph styling inside index section */
+    .palawan-page p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 10px 0 0;
+    }
+
+    /* Contact Page Header */
+    .contact-header {
+        text-align: center;
+        padding: 20px;
+        background-color: #0077B6;
+        color: #FFFFFF;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 20px auto;
+        max-width: 800px;
+    }
+
+    /* Main Content Styling */
+    .contact-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* Contact Form Styling */
+    .contact-form {
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .contact-form label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #0077B6;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .contact-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #0077B6;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .contact-form button:hover {
+        background-color: #005f8d;
+    }
+
+    /* Image Styling */
+    .contact-image img {
+        width: 80%;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+    }
+
+    /* Navigation Styling */
+    .contact-nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .contact-nav ul {
+        list-style-type: none;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    /* Button Styling for Home and About Us */
+    .nav-button {
+        color: #0077B6;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 12px 20px; /* Increase padding for a more button-like appearance */
+        background-color: #f0f8ff;
+        border: 2px solid #0077B6; /* Add border */
+        border-radius: 25px; /* Rounded corners for button shape */
+        transition: all 0.3s ease; /* Smooth transition on hover */
+    }
+
+    .nav-button:hover {
+        background-color: #0073e6;
+        color: white;
+        border-color: #0073e6; /* Change border color on hover */
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+
+    .contact-nav ul li a {
+        color: #0077B6;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color: #f0f8ff;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .contact-nav ul li a:hover {
+        background-color: #0073e6;
+        color: white;
+    }
+
+    /* Navigation styling */
+    nav {
+        position: absolute;
+        bottom: 20px; /* Distance from the bottom */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Adjust for exact centering */
+    }
+
+    nav ul {
+        list-style-type: none; /* Remove bullet points */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 30px; /* Space between each link */
+    }
+
+    nav ul li {
+        display: inline; /* Display items horizontally */
+    }
+
+    nav ul li a {
+        color: #FFFFFF; /* White text for visibility */
+        text-decoration: none; /* Remove underline */
+        font-size: 18px; /* Font size for visibility */
+        font-weight: bold; /* Bold text for emphasis */
+        padding: 10px 15px; /* Padding around each link */
+        background-color: transparent; /* Transparent background */
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+
+    nav a {
+        color: #0073e6;
+        padding: 10px 15px;
+        background-color: #f0f8ff;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: #0073e6;
+        color: white;
+    }
